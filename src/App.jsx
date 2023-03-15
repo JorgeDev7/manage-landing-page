@@ -61,15 +61,21 @@ function App() {
           src={bgTablePat}
           alt="img bg-tablet-pattern"
           className="bg-tablet"
+          loading="lazy"
         />
         <img
           src={bgTablePat}
           alt="img bg-tablet-pattern"
           className="bg-tablet-sm"
+          loading="lazy"
         />
         <header className="header container">
           <div className="header__img">
-            <img src={logo} alt="logo manage" />
+            <img
+              src={logo}
+              alt="logo manage"
+              loading="lazy"
+            />
           </div>
           <div className="header__nav">
             <div>
@@ -78,6 +84,7 @@ function App() {
                 alt="icon ham menu"
                 className="header__ham"
                 onClick={handleActive}
+                loading='lazy'
               />
             </div>
 
@@ -101,6 +108,7 @@ function App() {
               src={intro}
               alt="illustration intro"
               className="w-100"
+              loading="lazy"
             />
           </div>
           <div className="hero__contenido">
@@ -166,8 +174,9 @@ function App() {
                   src={avatarAnisha}
                   alt="anisha li"
                   className="testimonial__img"
+                  loading="lazy"
                 />
-                <h4 className="testimonial__name">Anisha Li</h4>
+                <h3 className="testimonial__name">Anisha Li</h3>
                 <p className="testimonial__text">“Manage has supercharged our team’s workflow. The ability to maintain
                   visibility on larger milestones at all times keeps everyone motivated.”</p>
               </div>
@@ -178,8 +187,9 @@ function App() {
                   src={avatarAli}
                   alt="Ali Bravo"
                   className="testimonial__img"
+                  loading="lazy"
                 />
-                <h4 className="testimonial__name">Ali Bravo</h4>
+                <h3 className="testimonial__name">Ali Bravo</h3>
                 <p className="testimonial__text">“We have been able to cancel so many other subscriptions since using
                   Manage. There is no more cross-channel confusion and everyone is much
                   more focused.”</p>
@@ -191,8 +201,9 @@ function App() {
                   src={avatarRichard}
                   alt="Richard Watts"
                   className="testimonial__img"
+                  loading="lazy"
                 />
-                <h4 className="testimonial__name">Richard Watts</h4>
+                <h3 className="testimonial__name">Richard Watts</h3>
                 <p className="testimonial__text">“Manage allows us to provide structure and process. It keeps us organized
                   and focused. I can’t stop recommending them to everyone I talk to!”</p>
               </div>
@@ -203,8 +214,9 @@ function App() {
                   src={avatarShanai}
                   alt="Shanai Gough"
                   className="testimonial__img"
+                  loading="lazy"
                 />
-                <h4 className="testimonial__name">Shanai Gough</h4>
+                <h3 className="testimonial__name">Shanai Gough</h3>
                 <p className="testimonial__text">“Their software allows us to track, manage and collaborate on our projects
                   from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
               </div>
