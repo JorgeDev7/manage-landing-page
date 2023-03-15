@@ -16,6 +16,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     background-color: $veryLightGray;
+    overflow-x: hidden;
 }
 
 *,
@@ -125,7 +126,7 @@ ul {
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     height: 100vh;
