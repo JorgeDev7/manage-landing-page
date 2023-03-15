@@ -35,6 +35,7 @@ function App() {
       return;
     }
     setError(false);
+    setValid('');
   }
 
   const handleChange = e => {
